@@ -37,7 +37,7 @@ const CategoryNewsPage = ({ newsArticles }: CategoryNewsPageProps) => {
   const router = useRouter();
   const categoryName = router.query.category?.toString();
 
-  const title = "Category: " + categoryName.charAt(0).toUpperCase() + categoryName.slice(1);
+  const title = "Category: " + categoryName?.charAt(0).toUpperCase() + categoryName?.slice(1);
   return (
     <>
       <Head>
