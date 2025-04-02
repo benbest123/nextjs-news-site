@@ -1,4 +1,3 @@
-import NewsArticleEntry from "@/components/NewsArticleEntry";
 import NewsArticlesGrid from "@/components/NewsArticlesGrid";
 import { NewsArticle, NewsResponse } from "@/models/NewsArticles";
 import { GetServerSideProps } from "next";

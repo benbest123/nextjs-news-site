@@ -1,8 +1,8 @@
+import placeholderImage from "@/assets/images/newsarticle_placeholder.jpg";
 import { NewsArticle } from "@/models/NewsArticles";
+import styles from "@/styles/NewsArticleEntry.module.css";
 import Image from "next/image";
 import { Card } from "react-bootstrap";
-import placeholderImage from "@/assets/images/newsarticle_placeholder.jpg";
-import styles from "@/styles/NewsArticleEntry.module.css";
 
 interface NewsArticleEntryProps {
   article: NewsArticle;
