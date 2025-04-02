@@ -1,8 +1,6 @@
 import Link from "next/link";
 import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
 
-interface NavBarProps {}
-
 const NavBar = () => {
   return (
     <Navbar bg="dark" variant="dark" sticky="top" expand="sm" collapseOnSelect>
